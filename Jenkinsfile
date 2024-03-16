@@ -3,19 +3,19 @@ pipeline {
   stages {
     stage ('mastertest1') {
       steps {
-         echo "mastertest1" 
+         echo "masterbranch1" 
             }
                }
    
     stage ('mastertest2') {
       steps {
-        echo "mastertest2"
+        echo "masterbranch2"
             }
                }
 
     stage ('mastertest3') {
       steps {
-         echo "mastertest3"
+         echo "masterbranch3"
             }
                }
 
