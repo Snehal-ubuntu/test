@@ -1,21 +1,21 @@
 pipeline {
          agent any
   stages {
-    stage ('mastertest1') {
+    stage ('releasetest1') {
       steps {
-         echo "mastertest1" 
+         echo "releasetest1" 
             }
                }
    
-    stage ('mastertest2') {
+    stage ('releasetest2') {
       steps {
-        echo "mastertest2"
+        echo "releasetest2"
             }
                }
 
-    stage ('mastertest3') {
+    stage ('releasetest3') {
       steps {
-         echo "mastertest3"
+         echo "releasetest3"
             }
                }
 
